@@ -1,0 +1,167 @@
+/* ...1200... */
+@media screen and (max-width:1200px)
+{
+.study,.learning1,.learning2,.learning3{
+  width: 100%;
+} 
+.service,.design-card1,.design-card2,.design-card3,.design-card4{
+  width: 100%;
+}
+.design-card1::after{
+  display: none;
+}
+.all-card{
+  width: 100%;
+} 
+} 
+/* ...1200 END... */
+
+/* ...1024... */
+@media  (max-width:1024px)
+{
+.main{
+  width: 100%;   
+}
+.rolex1{
+  width: 100%;
+  background-size: cover;
+  background-size: 100% 100%;  
+}
+.rolex{
+  width: 100%;
+}
+.all-card{
+  width: 100%; 
+}
+}
+/* ...1024 END... */
+
+/* ...768... */
+@media  (max-width:768px)
+{
+.main{
+  width: 100%;   
+}
+.rolex1{
+  width: 100%;
+}
+.rolex{
+  width: 100%;
+}
+.all-card{
+  width: 100%; 
+}
+.design-card1::after{
+  display: none;
+}
+}
+/* ...768 END... */
+
+/* ...600... */
+@media  (max-width:600px)
+{
+.main{
+  width: 100%;   
+}
+.rolex1{
+  width: 100%;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+.rolex{
+  width: 100%;
+}
+#menu{
+  display: block;
+  left: 500px;
+}
+.none{
+  display: none; 
+}
+li{
+  display: block;
+  margin: 20px;
+}
+.all-card{
+  width: 100%;
+}
+.study,.learning1,.learning2,.learning3{
+  width: 100%;
+}
+.service,.design-card1,.design-card2,.design-card3,.design-card4{
+  width: 100%;
+}
+.design-card1::after{
+  display: none;
+}
+}
+/* ...600 END... */
+
+/* ...500... */
+@media screen and (max-width: 500px) 
+{
+.main
+{
+  width: 100%;    
+}
+.rolex1{
+  width: 100%;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+.rolex{
+  width: 100%; 
+}
+.rolex1 .text{
+  line-height: 3rem;
+}
+#menu{
+  display: block;
+  left: 420px;
+}
+.none{
+  display: none; 
+} 
+li{
+  display: block;
+  margin: 20px;
+}
+.all-card{
+  width: 100%;
+}
+#about
+{
+  width: 100%;
+}
+.col,.col1{
+  width: 100%;
+}
+.info-list::after{
+  display: none;
+}
+.study,.learning1,.learning2,.learning3{
+  width: 100%;
+}
+.service,.design-card1,.design-card2,.design-card3,.design-card4{
+  width: 100%;
+}
+.design-card1::after{
+  display: none;
+}
+.hosting,.website1,.website2,.website3,.website4{
+  width: 100%;
+}
+.personal,.call-me,.email-me{
+  width: 100%;
+}
+input{
+  width: 100%;
+}
+textarea{
+  margin: 10px;
+}
+.send input{
+  width: 100%;
+}
+}
+/* ...500 END... */
