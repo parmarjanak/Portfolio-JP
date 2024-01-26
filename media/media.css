@@ -77,7 +77,11 @@
   left: 500px;
 }
 .none{
-  display: none; 
+  display: none;
+  background: #202020; 
+  width: 400px;
+  margin-top:45px;
+  text-align: center; 
 }
 li{
   display: block;
@@ -122,6 +126,10 @@ li{
 }
 .none{
   display: none; 
+  background: #202020; 
+  width: 400px;
+  margin-top:45px;
+  text-align: center;
 } 
 li{
   display: block;
@@ -166,8 +174,8 @@ textarea{
 }
 h6
 {
-  top: 25px;
-  left: -10px;
+  top: 10px;
+  left: 60px;
 }
 }
 /* ...500 END... */
