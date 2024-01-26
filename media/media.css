@@ -25,7 +25,7 @@
 .rolex1{
   width: 100%;
   background-size: cover;
-  background-size: 100% 100%;  
+  background-size: 100% 200%;  
 }
 .rolex{
   width: 100%;
@@ -37,13 +37,14 @@
 /* ...1024 END... */
 
 /* ...768... */
-@media  (max-width:768px)
+@media screen and  (max-width:768px)
 {
 .main{
   width: 100%;   
 }
 .rolex1{
   width: 100%;
+  background-size: cover;
 }
 .rolex{
   width: 100%;
@@ -58,7 +59,7 @@
 /* ...768 END... */
 
 /* ...600... */
-@media  (max-width:600px)
+@media screen and  (max-width:600px)
 {
 .main{
   width: 100%;   
@@ -162,6 +163,11 @@ textarea{
 }
 .send input{
   width: 100%;
+}
+h6
+{
+  top: 25px;
+  left: -10px;
 }
 }
 /* ...500 END... */

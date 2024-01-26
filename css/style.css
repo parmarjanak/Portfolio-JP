@@ -227,6 +227,32 @@ li i{
 .fix i{
  color: #A1C568;
 }
+i
+{
+  position: relative;
+}
+h6
+{
+  transition:ease-in-out 1s;
+  position: absolute;
+  top:35px;
+  left: 10px;
+  transform: translate(-50%,-50%);
+  color:#FFFFFF8C;
+}
+i:hover
+{
+  color: #A1C568;
+  scale: .8;
+}
+h6::first-letter
+{
+  color:#A1C568;
+}
+::selection
+{
+  color: #666666;
+}
  /* ...Container END... */ 
 
 /* ...About... */ 
